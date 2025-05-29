@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%; /* largura */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 60px; /* tamanho da fonte */
+    font-weight: bold; /* grossura da fonte */
+}
+
+span {
+    color:#017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background:#017143; /* cor de fundo */
+    color:#ffffff;
+    border-radius: 40px; /* arredondamento das bordas */
+    border: none; /* borda */
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer; /* muda o ponteiro do mouse */
+    transition: 0.5s; /* transição do efeito */
+}
+
+button:hover {
+    background: #00502f;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.starbucks {
+    width: 340px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+}
+
+.circulo {
+    width: 100%;
+    height: 100%; /* altura */
+    background: #017143;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
